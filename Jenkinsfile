@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("geethika07/Devops")
+        app = docker.build("geethika07/devops-demo")
     }
 
     stage('Test image') {
